@@ -27,5 +27,5 @@ jobs:
               uses: barbarbar338/kekw@v1.0.0
               with:
                   chance: 70
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}'
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
