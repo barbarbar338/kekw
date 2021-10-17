@@ -1,10 +1,23 @@
 {
-  "name": "kekw",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0"
-  }
+	"name": "kekw",
+	"version": "1.0.0",
+	"description": "GitHub Action to randomly laugh at people who open an issue on your repository. (R.I.P El Risitas)",
+	"license": "MIT",
+	"main": "index.js",
+	"private": true,
+	"author": {
+		"email": "demirci.baris38@gmail.com",
+		"name": "Barış DEMİRCİ",
+		"url": "https://barbarbar338.fly.dev"
+	},
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@actions/core": "^1.6.0",
+		"@actions/github": "^5.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.4.1"
+	}
 }
