@@ -1,8 +1,8 @@
-name: KEKW
+name: Random KEKW
 description: GitHub Action to randomly laugh at people who open an issue on your repository. (R.I.P El Risitas)
 author: Barış DEMİRCİ <demirci.baris38@gmail.com>
 branding:
-    icon: smile
+    icon: aperture
     color: purple
 runs:
     using: node16

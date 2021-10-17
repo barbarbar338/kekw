@@ -24,7 +24,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: KEKW
-              uses: barbarbar338/kekw@v1.0
+              uses: barbarbar338/kekw@v1.0.0
               with:
                   chance: 70
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}'
