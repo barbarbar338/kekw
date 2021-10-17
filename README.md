@@ -26,7 +26,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: KEKW
-              uses: barbarbar338/kekw@v1.0.1
+              uses: barbarbar338/kekw@v1.0.2
               with:
                   chance: 70
                   AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
