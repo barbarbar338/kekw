@@ -1,6 +1,6 @@
 {
 	"name": "kekw",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "GitHub Action to randomly laugh at people who open an issue on your repository. (R.I.P El Risitas)",
 	"license": "MIT",
 	"main": "index.js",

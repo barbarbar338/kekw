@@ -15,6 +15,8 @@ Github token of the repository
 # 🤓 Example
 
 ```yml
+name: Random KEKW
+
 on:
     issues:
         types: [opened]
@@ -24,8 +26,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: KEKW
-              uses: barbarbar338/kekw@v1.0.0
+              uses: barbarbar338/kekw@v1.0.1
               with:
                   chance: 70
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
 ```

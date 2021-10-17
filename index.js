@@ -14,7 +14,7 @@ const kekw = readFileSync(resolve(__dirname, "kekw.txt"), "utf-8");
 async function main() {
 	if (issue == null) return setFailed("Issue not found");
 
-	const GITHUB_TOKEN = getInput("GITHUB_TOKEN", {
+	const AUTH_TOKEN = getInput("AUTH_TOKEN", {
 		required: true,
 	});
 	const chance = getInput("chance");
@@ -26,7 +26,7 @@ async function main() {
 				rest: {
 					issues: { createComment },
 				},
-			} = getOctokit(GITHUB_TOKEN);
+			} = getOctokit(AUTH_TOKEN);
 			const comment = await createComment({
 				...repo,
 				issue_number: issue.number,

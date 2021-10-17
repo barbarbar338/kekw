@@ -8,8 +8,8 @@ runs:
     using: node16
     main: index.js
 inputs:
-    GITHUB_TOKEN:
-        description: Github token of the repository
+    AUTH_TOKEN:
+        description: Github personal auth token for commenting on issue
         required: true
     chance:
         description: Chance of action to run (percentage)
