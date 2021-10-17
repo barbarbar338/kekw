@@ -1,0 +1,15 @@
+name: Random KEKW
+
+on:
+    issues:
+        types: [opened]
+
+jobs:
+    comment:
+        runs-on: ubuntu-latest
+        steps:
+            - name: KEKW
+              uses: barbarbar338/kekw@v1.0.1
+              with:
+                  chance: 100
+                  AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
