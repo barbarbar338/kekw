@@ -8,9 +8,9 @@ GitHub Action to randomly laugh at people who open an issue on your repository. 
 
 Chance of action to run (percentage)
 
-## `GITHUB_TOKEN` (required)
+## `AUTH_TOKEN` (required)
 
-Github token of the repository
+Github personal auth token for commenting on issue
 
 # 🤓 Example
 
