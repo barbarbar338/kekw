@@ -1,0 +1,17 @@
+name: KEKW
+description: GitHub Action to randomly laugh at people who open an issue on your repository. (R.I.P El Risitas)
+author: Barış DEMİRCİ <demirci.baris38@gmail.com>
+branding:
+    icon: smile
+    color: purple
+runs:
+    using: node16
+    main: index.js
+inputs:
+    GITHUB_TOKEN:
+        description: Github token of the repository
+        required: true
+    chance:
+        description: Chance of action to run (percentage)
+        required: true
+        default: "50"
